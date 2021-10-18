@@ -1,0 +1,44 @@
+body{
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+}
+h1,h2{
+    margin:0
+}
+.modal-overlay{
+    background-color:rgba(218, 174, 196, 0.7);
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.modal{
+    border: 2px solid black;
+    width:500px;
+    height:150px;
+    padding:1em;
+    line-height:1.6;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background:wheat
+}
+.modal-close,.modal-open{
+    background-color:red;
+    color:white;
+    font-weight: bold;
+    padding:.25em 1em;
+    cursor: pointer;
+}
+.modal-open{
+    background-color:green;
+}
+.home-page{
+    font-size:3rem;
+    text-align:center;
+}
