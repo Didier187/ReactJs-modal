@@ -9,7 +9,7 @@ export default function Modal(){
     }
 
     return (
-    <div className="modal-overlay" style={{visibility:displayStyle}}>
+    <div className="modal-overlay" style={{visibility:displayStyle}} onClick={handleClick}>
 
         <div className="modal">
             <div>
